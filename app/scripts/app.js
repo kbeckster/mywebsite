@@ -18,15 +18,15 @@ angular
         templateUrl: 'views/main.html',
       })
       .when ('/about', {
-        templateUrl: '/views/main.html',
+        templateUrl: 'views/main.html',
       })
       .when('/latestproject', {
-        templateUrl: '/views/latestProject.html',
+        templateUrl: 'views/latestProject.html',
         controller: 'LatestProjectCtrl',
         controllerAs: 'latestproject'
       })
       .when('/favbooks', {
-        templateUrl: '/views/favBooks.html',
+        templateUrl: 'views/favBooks.html',
         controller: 'FavBooksCtrl',
         controllerAs: 'favbooks'
       })
