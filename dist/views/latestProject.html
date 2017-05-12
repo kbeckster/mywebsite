@@ -1,0 +1,10 @@
+<label>Search <i class='glyphicon glyphicon-search'></i></label>
+<input class="form-control" type="text" ng-model="searchKeyword" placeholder="" />
+
+<h3>Current GitHub Repos</h3>
+<ul>
+  <li ng-repeat="repo in repos  | filter: searchKeyword">
+    <!--Filter through repos, removing the kbeckster/ from the start of each-->
+    {{repo.full_name | split: '/' : 1}}
+  </li>
+</ul>
