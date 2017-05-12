@@ -1,0 +1,9 @@
+<label>Search <i class='glyphicon glyphicon-search'></i></label>
+<input class="form-control" type="text" ng-model="searchKeyword" placeholder="" />
+
+<h3>Favorite Books</h3>
+<ul>
+  <li ng-repeat="book in books  | filter: searchKeyword">
+    {{book.volumeInfo.title}}
+  </li>
+</ul>
