@@ -7,66 +7,135 @@
 
 body {
   padding: 0;
-<<<<<<< HEAD
-  /* For sticky footer*/
-   margin-bottom: 60px;
-=======
->>>>>>> 4ded9032149097a4aa4096f9beeab3359e80dd02
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+
 }
 
 /* Home page styles */
+.bio {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  margin-left: 1.5em;
+  margin-top: 2em;
+  color: #33FF5B;
+}
+
 .home-page {
-  padding-top: 25%
+  padding-top: 20%
 }
 .self-img {
-  height: 15em;
-<<<<<<< HEAD
-  padding-left: 1em;
-=======
-  padding-left: 3em;
->>>>>>> 4ded9032149097a4aa4096f9beeab3359e80dd02
+  height: 10em;
+  margin-left: 3em;
 }
 
-.bio {
-  padding-top: 15%;
-<<<<<<< HEAD
-}
-
-/* Sticky footer */
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #f5f5f5;
-}
-
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
-}
-.marketing p + h4 {
-  margin-top: 28px;
-=======
-  padding-bottom: 20%;
->>>>>>> 4ded9032149097a4aa4096f9beeab3359e80dd02
-}
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
     max-width: 730px;
   }
-
-<<<<<<< HEAD
-  /* Remove the padding we set earlier */
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
+  .header-line-break {
+    margin-left: 20em;
   }
-  /* Space out the masthead */
-=======
->>>>>>> 4ded9032149097a4aa4096f9beeab3359e80dd02
 
+  .bio {
+    color: #ff6e33;
+    font-size: 1.5em;
+  }
+
+  .self-img {
+    height: 18em;
+    margin-left: 15em;
+  }
+
+  .navbar-nav > li {
+    margin-left: 2em;
+  }
+
+  .navbar-nav{
+    margin-left: 10em;
+  }
+
+  .navbar{
+    background: #fff;
+    border: 0;
+  }
 }
+
+
+
+
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 730px;
+  }
+  .header-line-break {
+    margin-left: 20em;
+  }
+
+  .bio {
+    color: #f5f5f5;
+    font-size: 1.5em;
+  }
+
+  .self-img {
+    height: 18em;
+    margin-left: 0em;
+  }
+
+  .navbar-nav > li {
+    margin-left: 2em;
+  }
+
+  .navbar-nav{
+    margin-left: 10em;
+  }
+
+  .navbar{
+    background: #fff;
+    border: 0;
+  }
+}
+
+  /* Extra small devices (phones, less than 768px) */
+  /* No media query since this is the default in Bootstrap */
+
+  /* Small devices (tablets, 768px and up) */
+  /*@media (min-width: @screen-sm-min) {
+
+    .bio {
+      padding-top: 5%;
+      padding-left: 50%;
+      color: #3342FF;
+    }
+  }
+
+  /* Medium devices (desktops, 992px and up) */
+  /*@media (min-width: @screen-md-min) {
+    .bio {
+      padding-top: 5%;
+      padding-left: 50%;
+      color: #3342FF;
+    }
+    .self-img {
+      padding-left: %;
+    }
+
+    }*/
+
+
+
+
+  /* Large devices (large desktops, 1200px and up) */
+  /*@media (min-width: @screen-lg-min) {
+    .self-img {
+      padding-left: 10s%;
+    }
+
+    .bio {
+      color: #FF5733;
+    }
+    }*/
