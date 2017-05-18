@@ -1,7 +1,6 @@
-# kbeckster.github.io
+# My Website
 
-My personal website. The uncompiled code can be found at https://github.com/kbeckster/mywebsite
-
+My personal website. The compiled code can be found at https://github.com/kbeckster/kbeckster.github.io
 
 
 Visit www.rebeccakohl.com to view
